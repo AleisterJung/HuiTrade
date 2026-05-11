@@ -1,0 +1,6 @@
+@HuiTrade.API_HostAddress = http://localhost:5282
+
+GET {{HuiTrade.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
