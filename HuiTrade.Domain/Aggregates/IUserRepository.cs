@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace HuiTrade.Domain.Aggregates
 {
@@ -10,10 +11,7 @@ namespace HuiTrade.Domain.Aggregates
 
         Task<User?> GetByUsernameAsync(string username);
         Task AddAsync(User user);
-        Task UpdateAsync(User user);
-
-        // 统一提交所有更改到数据库
-        Task<int> SaveChangesAsync();
+       
       
     }
 }

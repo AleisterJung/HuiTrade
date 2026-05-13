@@ -1,5 +1,6 @@
 using HuiTrade.Infrastructure;
 using HuiTrade.Application.Services;
+using HuiTrade.Application.Services.UserService;
 
 var builder = WebApplication.CreateBuilder(args);
 
